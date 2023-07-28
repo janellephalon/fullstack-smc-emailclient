@@ -1,7 +1,7 @@
 # DataMotion Secure Message Center API Demo - Starter Files
 
 ## Description
-This Secure Message Center demo is a React application that demonstrates the use of the DataMotion Secure Message Center API to build a secure and compliant email inbox. This project is a part of the API tutorial aimed at helping developers create a secure message exchange system.
+These are the starter files for the Secure Message Center demo, a React application that showcases the use of the DataMotion Secure Message Center API to build a secure and compliant email inbox. This project serves as a practical part of an API tutorial, guiding developers in creating a secure messaging exchange system.
 
 ## Table of Contents
 - [DataMotion Secure Message Center API Demo - Starter Files](#datamotion-secure-message-center-api-demo---starter-files)
