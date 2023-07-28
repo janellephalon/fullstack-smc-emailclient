@@ -9,7 +9,7 @@ const Inbox = () => {
         // This is where we will make the API call to fetch emails
         // For demo purposes, let's use mock data for the starter files
         const mockEmails = [
-            { id: 1, subject: 'Seucre Message Center API', sender: 'john@example.com' },
+            { id: 1, subject: 'Secure Message Center API', sender: 'john@example.com' },
             { id: 2, subject: 'DataMotion is Awesome', sender: 'jane@example.com' },
             // More emails here...
         ];
