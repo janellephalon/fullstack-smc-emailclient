@@ -49,3 +49,4 @@ THEN it should maintain data integrity, even after the page is refreshed or relo
 
 ## Contributing 
 Janelle Phalon - [Github](https://github.com/janellephalon)
+# DataMotion-SMC-demo
