@@ -45,7 +45,7 @@ THEN it should maintain data integrity, even after the page is refreshed or relo
 
 ## Resources 
 * [React Documentation](https://reactjs.org/)
-* [DataMotion API Documentation](https://www.datamotion.com/developer/)
+* [DataMotion API Documentation](https://developers.datamotion.com/)
 
 ## Contributing 
 Janelle Phalon - [Github](https://github.com/janellephalon)
