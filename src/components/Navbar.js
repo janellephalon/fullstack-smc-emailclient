@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import dmLogo from "../assets/dmLogo.png";
 
 const NavigationBar = () => {
     return (
@@ -19,3 +20,5 @@ const NavigationBar = () => {
 };
 
 export default NavigationBar;
+
+

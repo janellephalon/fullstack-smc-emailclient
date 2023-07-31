@@ -4,7 +4,7 @@ import { Button, ListGroup } from 'react-bootstrap';
 const Sidebar = () => {
     return (
         <div style={{ width: '250px' }}>
-            <Button variant="primary" size="lg" block style={{ marginBottom: '20px' }}>
+            <Button variant="primary" size="lg" style={{ marginBottom: '20px' }}>
                 Compose
             </Button>
             <ListGroup>
