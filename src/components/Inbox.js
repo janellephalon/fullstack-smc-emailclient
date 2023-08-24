@@ -5,12 +5,23 @@ const Inbox = () => {
     const [emails, setEmails] = useState([]);
 
     useEffect(() => {
-        // This is where we will make the API call to fetch emails
-        // For demo purposes, let's use mock data for the starter files
+        // Mock data for the starter files
         const mockEmails = [
-            { id: 1, subject: 'Secure Message Center API', sender: 'john@example.com' },
-            { id: 2, subject: 'DataMotion is Awesome', sender: 'jane@example.com' },
-            // More emails here...
+            {
+                id: 'msg12345',
+                subject: 'DataMotion Secure Message Center API',
+                sender: 'security@datamotion.com',
+                dateReceived: '2023-08-01 14:23:00',
+                isRead: false
+            },
+            {
+                id: 'msg12346',
+                subject: 'DataMotion is awesome!',
+                sender: 'customerfeedback@datamotion.com',
+                dateReceived: '2023-08-02 09:10:00',
+                isRead: true
+            },
+            // ... additional emails as required
         ];
 
         setEmails(mockEmails);
@@ -19,14 +30,15 @@ const Inbox = () => {
     return (
         <ListGroup className='inbox-style'>
             {emails.map(email => (
-                <ListGroup.Item key={email.id}>
-                    <h4>{email.subject}</h4>
-                    <p>{email.sender}</p>
+                <ListGroup.Item key={email.id} className='email-item'>
+                    <div className="email-content">
+                        <p className="sender-email">{email.sender}</p>
+                        <p className="email-subject">{email.subject}</p>
+                    </div>
                 </ListGroup.Item>
             ))}
         </ListGroup>
     );
 };
-
 
 export default Inbox;
