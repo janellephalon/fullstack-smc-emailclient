@@ -1,7 +1,7 @@
 # DataMotion's Secure Message Center API: Demo Starter Files
 
 ## Description
-These are the starter files for the Secure Message Center demo, a React application that showcases the use of the DataMotion Secure Message Center API to build a secure and compliant email inbox. This project serves as a practical part of an API tutorial, guiding developers in creating a secure messaging exchange system.
+These are the starter files for the Secure Message Center demo, a React application that demonstrates the integration with DataMotion's Secure Message Center API, specifically focusing on the Get Token API and Get Message Summaries API. This project serves as a hands-on segment of an API tutorial, guiding developers through the process of building a secure and compliant email inbox.
 
 ## Table of Contents
 - [DataMotion's Secure Message Center API: Demo Starter Files](#datamotions-secure-message-center-api-demo-starter-files)
@@ -23,13 +23,14 @@ SO THAT I can build a secure and compliant email inbox for my applications.
 
 ## Acceptance Criteria
 ```
-GIVEN a React application utilizing DataMotion Secure Message Center API,
+GIVEN a React application using DataMotion Secure Message Center API,
 WHEN I run the application,
-THEN I should be able to view, send, and manage messages securely.
+THEN the server retrieves a token from DataMotion's token API.
+AND fetches data from the Get Message Summary API.
+AND a list of emails is securely rendered on the page.
 WHEN I interact with the message center,
-THEN the changes should reflect in real-time.
-GIVEN the secure message center's state,
-THEN it should maintain data integrity, even after the page is refreshed or reloaded.
+THEN changes are reflected accurately.
+AND data consistency is ensured even after page refresh or reload.
 ```
 
 ## Installation 
