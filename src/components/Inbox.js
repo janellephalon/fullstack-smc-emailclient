@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { ListGroup } from 'react-bootstrap';
-// import Sidebar from './Sidebar';
 
 const Inbox = () => {
     const [emails, setEmails] = useState([]);
@@ -18,7 +17,7 @@ const Inbox = () => {
     }, []);
 
     return (
-        <ListGroup>
+        <ListGroup className='inbox-style'>
             {emails.map(email => (
                 <ListGroup.Item key={email.id}>
                     <h4>{email.subject}</h4>
@@ -28,5 +27,6 @@ const Inbox = () => {
         </ListGroup>
     );
 };
+
 
 export default Inbox;
