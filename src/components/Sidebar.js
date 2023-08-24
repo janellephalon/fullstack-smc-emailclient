@@ -3,7 +3,7 @@ import { Button, ListGroup } from 'react-bootstrap';
 
 const Sidebar = () => {
     return (
-        <div style={{ width: '100%', maxWidth: '250px', flexShrink: 0 }}>
+      <div className="col-md-3 pt-3">
             <Button variant="primary" size="lg" style={{ marginBottom: '20px', width: '100%' }} className="btn">
                 Compose
             </Button>

@@ -28,6 +28,7 @@ const Inbox = () => {
     }, []);
 
     return (
+      <div className="col-md-9 pt-3">
         <ListGroup className='inbox-style'>
             {emails.map(email => (
                 <ListGroup.Item key={email.id} className='email-item'>
@@ -38,6 +39,7 @@ const Inbox = () => {
                 </ListGroup.Item>
             ))}
         </ListGroup>
+      </div>
     );
 };
 

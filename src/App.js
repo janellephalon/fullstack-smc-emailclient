@@ -11,16 +11,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Container fluid style={{ paddingTop: '20px' }}>
-        <Row>
-          <Col md={3}>
-            <Sidebar />
-          </Col>
-          <Col md={9}>
-            <Inbox />
-          </Col>
-        </Row>
-      </Container>
+      <Container fluid>
+            <Row>
+                <Sidebar />
+                <Inbox />
+            </Row>
+        </Container>
     </div>
   );
 }
