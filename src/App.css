@@ -5,6 +5,24 @@ body {
   font-weight: 300;
 }
 
+/* Pills */
+.badge-pill {
+  display: inline-block;
+  padding: .2em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1rem; /* Increased border-radius for more rounded appearance */
+  background-color: #f8f9fa; /* light gray background */
+  border: 1px solid #dee2e6; /* gray border */
+  color: #555; /* dark grey text */
+  margin-right: .5em; /* added space between each pill */
+  margin-top: .5em;
+}
+
 /* Sidebar */
 .btn {
   color: #434f57;
