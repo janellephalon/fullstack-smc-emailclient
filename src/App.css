@@ -15,11 +15,11 @@ body {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 1rem; /* Increased border-radius for more rounded appearance */
-  background-color: #f8f9fa; /* light gray background */
-  border: 1px solid #dee2e6; /* gray border */
-  color: #555; /* dark grey text */
-  margin-right: .5em; /* added space between each pill */
+  border-radius: 1rem; 
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  color: #555;
+  margin-right: .5em;
   margin-top: .5em;
 }
 
