@@ -24,7 +24,7 @@ function App() {
           <Col md={3} className="sidebar-scroll">
             <Sidebar setActiveTab={setActiveTab} />
           </Col>
-          <Col md={8} className="inbox-scroll">
+          <Col md={9} className="inbox-scroll">
             {activeTab === 'inbox' && <InboxList />}
             {activeTab === 'drafts' && <Drafts />}
             {activeTab === 'sent' && <Sent />}

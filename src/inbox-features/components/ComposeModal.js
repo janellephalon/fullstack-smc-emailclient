@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
-import axios from 'axios';  // Import axios
+import axios from 'axios';
 
+// Icon Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -41,8 +42,6 @@ const ComposeModal = () => {
         console.log('Recipient:', recipient);
         console.log('Subject:', subject);
         console.log('Message:', message);
-
-        // Later, you can integrate the backend API call here for sending the email
 
         handleClose();
     };
