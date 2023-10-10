@@ -1,14 +1,18 @@
 import React from 'react';
 import { Navbar, Nav, NavItem, NavLink } from 'react-bootstrap';
+
+// Icon Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDev, faLinkedin, faTwitterSquare, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
+// DataMotion Logo Import
 import dmLogo from '../assets/DataMotion-Logo-White-1 copy (1).png';
 
 const NavigationBar = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="flex-column">
+        <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="flex-column navbar-style">
             <div className="d-flex w-100 justify-content-between">
+                {/* DataMotion Logo */}
                 <Navbar.Brand href="https://datamotion.com/" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '20px' }}>
                     <img
                         alt="DataMotion logo"
@@ -18,6 +22,7 @@ const NavigationBar = () => {
                     />
                 </Navbar.Brand>
 
+                {/* Connect Icons */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
@@ -45,6 +50,11 @@ const NavigationBar = () => {
                 </Navbar.Collapse>
             </div>
 
+            <div className="w-100 d-flex justify-content-start pl-4 subtitle" style={{ marginLeft: '40px' }}>
+               <h6 className="text-start">Secure Message Center Inbox</h6>
+            </div>
+
+            {/* Badge Pills */}
             <div className="w-100 d-flex justify-content-start pl-4" style={{ marginLeft: '35px' }}>
                 <span className="badge badge-light badge-pill mr-2">
                     Secure Message Center API

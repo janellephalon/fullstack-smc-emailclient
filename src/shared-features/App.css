@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat&family=Overpass:ital@0;1&family=Poppins:wght@200;400&display=swap');
+
+/* Body */
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar-style {
+  background: linear-gradient(-45deg, #F26629, #A72295);
+}
+
+.subtitle {
+  color: #ECECEC;
+  margin-top: .2em;
+}
+
+.badge-pill {
+  display: inline-block;
+  padding: .3em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  color: #555;
+  margin-right: .5em;
+  margin-top: .3em;
+  margin-bottom: .5em;
+}
+
+/* Sidebar */
+.sidebar-scroll {
+  background-color: #f3f3f3;
+  overflow-y: auto;
+  padding-right: 10px;
+  width: 20%;
+}
+
+.compose-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compose-button .fa-envelope {
+  color: #F26629;
+  padding-left: 6px;
+}
+
+.compose-button .fa-envelope:hover {
+  color: #A72295;
+  padding-left: 6px;
+}
+
+.compose-button:hover {
+  background-color: #f5f5f5;
+  color: #434f57;
+  border-color: lightgrey;
+}
+
+.btn {
+  color: #434f57;
+  background-color: #ffff;
+  border: solid .5px;
+  border-color: lightgrey;
+  border-radius: 1.5px;
+  font-size: 16px;
+}
+
+.sidebar-styles {
+  border-radius: 1.5px;
+  border: solid 0px;
+  border-color: lightgrey;
+  color: #434f57;
+  font-size: 14px;
+}
+
+.sidebar-icon {
+  color: #A72295;
+  padding-right: 6px;
+}
+
+/* Inbox */
+.container-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  height: calc(80vh - 80px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-row .header-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #434f57;
+}
+
+.inbox-scroll {
+  overflow-y: auto;
+  padding-left: 5%;
+  padding-right: 0%;
+}
+
+.main-content {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.inbox-style {
+  background-color: white;
+  border-radius: 1.5px;
+  padding: 10px 20px 10px 20px;
+  border-color: grey;
+}
+
+.inbox-style .d-flex:hover {
+  background-color: #f5f5f5;
+}
+
+.email-item {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.email-item > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-item .btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sender-email {
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #434f57;
+}
+
+.email-subject {
+  font-size: 13px;
+  margin-top: .5px;
+  color: #434f57;
+  text-align: left;
+}
+
+.sender-email, .email-subject {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date-received {
+  font-size: 13px;
+  color: #434f57;
+  text-align: left;
+}
+
+/* Email Open Modal */
+.modal-content {
+  color: #434f57;
+}
+
+
+
+

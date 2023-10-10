@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { ListGroup } from 'react-bootstrap';
+
+// Icon Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInbox, faPaperPlane, faCheck, faFile, faTrash } from '@fortawesome/free-solid-svg-icons';
 
-// Components
-import ComposeModal from './ComposeModal';
+// Inbox Imports
+import ComposeModal from '../inbox-features/components/ComposeModal';
 
 const Sidebar = ({ setActiveTab }) => {
 

@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 import axios from 'axios';  // Import axios
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 const ComposeModal = () => {
     const [show, setShow] = useState(false);
     const [recipient, setRecipient] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [createTime, setCreateTime] = useState('');
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -16,8 +20,8 @@ const ComposeModal = () => {
           const response = await axios.post('http://localhost:5000/draft-message', {
               to: [recipient],
               subject: subject,
-              textBody: message
-              // You can expand on this object based on the fields DataMotion expects
+              textBody: message,
+              createTime: createTime,
           });
 
           console.log('Draft response:', response.data);
@@ -46,8 +50,8 @@ const ComposeModal = () => {
     return (
         <>
           <div className='col-md-12'>
-            <Button variant="primary" onClick={handleShow} className='btn' style={{ marginBottom: '20px', width: '100%' }}>
-                Compose
+            <Button variant="" onClick={handleShow} className='btn compose-button' style={{ marginBottom: '20px', width: '100%' }}>
+                Compose <FontAwesomeIcon icon={faEnvelope} className="ml-2" />
             </Button>
           </div>
           <div className='modal-style'>
