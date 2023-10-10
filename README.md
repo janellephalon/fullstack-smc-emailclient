@@ -1,10 +1,10 @@
-# DataMotion's Secure Message Center API: Demo Starter Files
+# DataMotion's SMC API Updated Starter Files
 
 ## Description
 These are the starter files for the Secure Message Center demo, a React application that demonstrates the integration with DataMotion's Secure Message Center API, specifically focusing on the Get Token API and Get Message Summaries API. This project serves as a hands-on segment of an API tutorial, guiding developers through the process of building a secure and compliant email inbox.
 
 ## Table of Contents
-- [DataMotion's Secure Message Center API: Demo Starter Files](#datamotions-secure-message-center-api-demo-starter-files)
+- [DataMotion's SMC API Updated Starter Files](#datamotions-smc-api-updated-starter-files)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
